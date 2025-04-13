@@ -2,7 +2,7 @@
 site_name: 성경 공부 사이트
 theme:
   name: material
-  logo: images/pyeon_logo.jpg
+  logo: main-image.png
   features:
     - navigation.instant
     - navigation.sections
@@ -36,7 +36,7 @@ nav:
      - 룻기:
   - 성경 분석:
      - 창세기:
-        - 1장~11장: book_of_genesis/study/1to11.md
+        - 1장~11장: book_of_genesis/study/all/1to11.md
      - 출애굽기:
      - 레위기:
      - 민수기:
