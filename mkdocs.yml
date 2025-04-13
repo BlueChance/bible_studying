@@ -19,10 +19,10 @@ theme:
   font:
     text: Noto Sans KR
     code: Fira Code
-extra_css: 
+extra_css:
     - stylesheets/extra.css
 
-nav: 
+nav:
   - 홈: index.md
   - 성경 전문 권별: book_of_genesis/generateFull.js
   - 성경전문세분화:
