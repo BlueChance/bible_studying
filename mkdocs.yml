@@ -1,5 +1,5 @@
 
-site_name: 편 가이드
+site_name: 성경 공부 사이트
 theme:
   name: material
   logo: images/pyeon_logo.jpg
@@ -10,11 +10,11 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: brown
+      accent: brown
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
+      primary: brown
       accent: blue
   font:
     text: Noto Sans KR
@@ -24,32 +24,24 @@ extra_css:
 
 nav: 
   - 홈: index.md
-  - 💭팀 소개:
-     - 팀 역사: team_introduction/team_introduction.md
-     - 팀 설명: team_introduction/team_explanation.md
-     - 팀 미래: team_introduction/team_future.md
-  - 편 야구단 참여리그와 정기활동: leagues/pyeon_league_and_activity.md
-  - 편 야구단 회비, 리그비: money/team_needs_money.md
-  - 편 야구단 운영위원회 소개: team_introducing/team_introducing_executives.md
-  - 편 야구단 팀원 소개: team_introducing/team_introducing_members.md
-  - 편 야구단 개인상해보험, 안전: insurance/team_insurance.md
-  - 사회인야구 기본 예절: baseballrules/manual_manners.md
-  - ✅편 야구단 규정:
-     - 벌금 규정: money/killyou.md
-     - 그라운드에서의 약속: money/good.md
-  - ⚾야구 포지션 설명: 
-     - 기본 설명: about_position/basic_position.md
-     - 상세 설명: about_position/position.md
-  - 편 야구단 공용 장비: equipment/team/gear.md
-  - 🧤입문자를 위한 야구 장비 추천:
-     - 글러브: equipment/first/glove.md
-     - 배트: equipment/first/bat.md
-     - 야구화: equipment/first/shoes.md
-     - 기타: equipment/first/rest.md
-     - 구매 사이트 추천: equipment/first/buy_sites.md
-  - 📄📢야구 규정:
-     - KBO 야구규정: baseballrules/2024kborules.md
-     - 파워리그 규정: baseballrules/2025powerleaguerules.md
-  - 편 야구단 가입신청서: join/how_to_get_in_pyeon.md
-  - 유니폼, 팀의류 주문 방법: uniforms/how_to_order.md
-  - 편 야구단 게임원: gameone/gameonesite.md
+  - 성경 전문 권별: book_of_genesis/generateFull.js
+  - 성경전문세분화:
+     - 창세기:
+        - 1장~11장: book_of_genesis/fulltext/1to11.md
+     - 출애굽기:
+     - 레위기:
+     - 민수기:
+     - 여호수아:
+     - 사사기:
+     - 룻기:
+  - 성경 분석:
+     - 창세기:
+        - 1장~11장: book_of_genesis/study/1to11.md
+     - 출애굽기:
+     - 레위기:
+     - 민수기:
+     - 여호수아:
+     - 사사기:
+     - 룻기:
+  - 학습문답식: study_basic.md
+  - 그 외 질문들:
