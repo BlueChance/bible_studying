@@ -21,27 +21,26 @@ theme:
     code: Fira Code
 extra_css:
     - stylesheets/extra.css
-
 nav:
   - 홈: index.md
-  - 성경 전문 권별: book_of_genesis/generateFull.js
+  - 성경 전문 권별: book_of_genesis/Full.md
   - 성경전문세분화:
      - 창세기:
         - 1장~11장: book_of_genesis/fulltext/1to11.md
-     - 출애굽기:
-     - 레위기:
-     - 민수기:
-     - 여호수아:
-     - 사사기:
-     - 룻기:
+     - 출애굽기: not_yet.md
+     - 레위기: not_yet.md
+     - 민수기: not_yet.md
+     - 여호수아: not_yet.md
+     - 사사기: not_yet.md
+     - 룻기: not_yet.md
   - 성경 분석:
      - 창세기:
         - 1장~11장: book_of_genesis/study/all/1to11.md
-     - 출애굽기:
-     - 레위기:
-     - 민수기:
-     - 여호수아:
-     - 사사기:
-     - 룻기:
+     - 출애굽기: not_yet.md
+     - 레위기: not_yet.md
+     - 민수기: not_yet.md
+     - 여호수아: not_yet.md
+     - 사사기: not_yet.md
+     - 룻기: not_yet.md
   - 학습문답식: study_basic.md
-  - 그 외 질문들:
+  - 그 외 질문들:  not_yet.md
